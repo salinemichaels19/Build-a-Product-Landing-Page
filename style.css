@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(236, 234, 234);
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+#header-img {
+  width: 350px;
+}
+
+#nav-bar {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
