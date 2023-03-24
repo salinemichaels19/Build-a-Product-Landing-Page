@@ -13,7 +13,7 @@ body {
 }
 
 #nav-bar {
-  width: 40%;
+  width: 35%;
   display: flex;
   justify-content: space-between;
 }
@@ -21,5 +21,49 @@ body {
 #nav-bar a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+#main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#email {
+  width: 270px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+#submit {
+  width: 170px;
+  height: 25px;
+  background-color: rgb(250, 184, 62);
+  font-size: large;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: orange;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+video {
+  height: 400px;
+  width: 500px;
+  background-color: yellow;
 }
